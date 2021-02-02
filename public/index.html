@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>vue2-typescript-start-app</title>
+
+    <% if (process.env.NODE_ENV === 'production') { %>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.3/dist/vue.min.js" integrity="sha256-OkepyislN9NacVaAUdPnl6D4CA8zwYQ7mEDpVB3wxXw=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-router@3.0.2/dist/vue-router.min.js" integrity="sha256-DbgluxFcJqBgeVJwF1idcvA2aeayczQBWJPGn4KZIEc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vuex@3.1.0/dist/vuex.min.js" integrity="sha256-ZIvksD84r/LgnGTXC+4mbAcKoHHu1w9EdhpWajDs1dQ=" crossorigin="anonymous"></script>
+    <% } %>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
